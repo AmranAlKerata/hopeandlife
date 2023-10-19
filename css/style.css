@@ -1763,6 +1763,8 @@ body {
   font-size: 0.875rem;
   font-family: "somar";
   color: #444;
+  --gold: #faba03;
+  --blue: #149286;
 }
 
 h1,
@@ -1938,7 +1940,7 @@ a.btn_1,
 .btn_1 {
   border: none;
   color: #fff;
-  background: #0b9d93;
+  background: var(--blue);
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -1966,7 +1968,7 @@ a.btn_1:focus,
 }
 a.btn_1:hover,
 .btn_1:hover {
-  background-color: #ffc107;
+  background-color: var(--gold);
   color: #111 !important;
 }
 a.btn_1.full-width,
@@ -2395,7 +2397,7 @@ header .sticky_element {
   }
 }
 header.version_1 .main_header {
-  background-color: white;
+  background-color: #0044c2;
 }
 header.version_1 .main_header a.phone_top {
   color: #fff;
@@ -4603,6 +4605,9 @@ body.modal-open .mm-slideout {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
+#carousel-home .owl-carousel .owl-slide-title span {
+  color: var(--gold);
+}
 #carousel-home .owl-carousel .owl-slide-title.is-transitioned,
 #carousel-home-2 .owl-carousel .owl-slide-title.is-transitioned {
   transition-delay: 0.2s;
@@ -4652,7 +4657,7 @@ body.modal-open .mm-slideout {
   font-size: 2.875rem;
   font-weight: 900;
   text-transform: uppercase;
-  line-height: 1;
+  line-height: 1.5;
 }
 @media (max-width: 767px) {
   .slide-text h2,
