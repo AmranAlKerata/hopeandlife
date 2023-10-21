@@ -4832,14 +4832,14 @@ body.modal-open .mm-slideout {
   }
 }
 .grid_item ul li a {
-  background-color: #fff;
+  background-color: var(--blue);
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   border-radius: 0;
   width: 36px;
   height: 36px;
-  color: #444;
+  color: #fff;
   text-align: center;
   line-height: 40px;
   display: block;
@@ -5132,7 +5132,7 @@ body.modal-open .mm-slideout {
 }
 .owl-prev i:hover,
 .owl-next i:hover {
-  color: var(--gold);
+  color: #0b9d93;
 }
 
 .owl-prev.disabled i:hover,
