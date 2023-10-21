@@ -111,7 +111,7 @@
 
   // Carousel
   $(".products_carousel").owlCarousel({
-    center: true,
+    center: false,
     items: 2,
     loop: true,
     margin: 10,
@@ -132,7 +132,8 @@
       560: {
         nav: false,
         dots: true,
-        items: 3
+        items: 3,
+        center: true
       },
       768: {
         nav: false,
