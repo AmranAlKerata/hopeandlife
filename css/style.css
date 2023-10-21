@@ -5039,6 +5039,22 @@ body.modal-open .mm-slideout {
 .owl-carousel button.owl-dot {
   outline: none;
 }
+.owl-carousel .owl-stage {
+  display: flex;
+}
+.products_carousel {
+  display: flex;
+  flex: 1 0 auto;
+  height: 100%;
+}
+.products_carousel .item {
+  position: relative;
+  overflow: hidden;
+  /* margin-bottom: 80px; */ /*This is optional*/
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
@@ -5174,6 +5190,13 @@ body.modal-open .mm-slideout {
 @media (max-width: 991px) {
   .products_carousel .grid_item {
     margin-bottom: 0;
+  }
+  .products_carousel .owl-item {
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+  }
+  .products_carousel .owl-item figure {
+    border-radius: 10px;
   }
 }
 
