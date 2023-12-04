@@ -1645,7 +1645,7 @@ Author URI: http://themeforest.net/user/Ansonika/
 */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "somar";
+  font-family: "fontello";
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -1907,7 +1907,8 @@ hr {
   position: absolute;
   display: inline-block;
   top: 2px;
-  margin-left: 3px;
+  transform: rotate(180deg);
+  margin-right: 3px;
 }
 .breadcrumbs ul li:last-child {
   font-weight: 500;
@@ -5026,7 +5027,7 @@ body.modal-open .mm-slideout {
   position: relative;
   padding: 5px 5px 3px 5px;
   top: -1px;
-  margin-left: 10px;
+  margin-right: 10px;
   display: inline-block;
 }
 
@@ -7441,4 +7442,8 @@ img.mfp-img {
 
 .mfp-bg {
   opacity: 0.8 !important;
+}
+.swal2-confirm {
+  border: 1px solid #faba03 !important;
+  box-shadow: none;
 }

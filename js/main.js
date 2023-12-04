@@ -275,10 +275,6 @@
   var $topPnl = $(".top_panel");
   var $pnlMsk = $(".layer");
 
-  $(".btn_add_to_cart a").on("click", function() {
-    $topPnl.addClass("show");
-    $pnlMsk.addClass("layer-is-visible");
-  });
   $("a.search_panel").on("click", function() {
     $topPnl.addClass("show");
     $pnlMsk.addClass("layer-is-visible");
